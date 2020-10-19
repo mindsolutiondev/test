@@ -1,0 +1,44 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  background: rgb(43, 213, 255);
+  box-shadow: 0 1px 3px 0 rgba(8, 27, 51, 0.2);
+  z-index: 10;
+  height: 5%;
+  width: 100%;
+}
+.asset {
+  box-sizing: border-box;
+  font-size: larger;
+  padding-left: 1%;
+}
+.logout {
+  box-sizing: border-box;
+  font-size: larger;
+  padding-left: 89%;
+}
+
+.topnav {
+  background-color: rgb(43, 213, 255);
+  overflow: hidden;
+  box-shadow: 0 1px 3px 0 rgba(8, 27, 51, 0.2);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgba(8, 27, 51, 0.2);
+  color: black;
+}
+.cv {
+  margin-left: 83%;
+}
